@@ -1,4 +1,5 @@
 # energy_meter
+
 Custom Designed Home Assisstant Energy Meter
 This is a custom designed energy meter for Home Assistant Dashboard using the Picture Elements card.
 
@@ -9,4 +10,9 @@ Feel free to make any changes you wish in order to make it more usefull to your 
 
 Just place the images into your own folder of images in Home Assistant and paste my code to get started.
 
+
+
 Have Fun :)
+
+
+![Sample](https://github.com/user-attachments/assets/d60c7396-e905-4657-bdae-781705d9e7e1)
