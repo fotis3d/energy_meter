@@ -1,0 +1,80 @@
+type: picture-elements
+elements:
+  - type: state-icon
+    entity: input_boolean.dei_night_toggle
+    style:
+      top: 76%
+      left: 62.7%
+      transform: scale(0.7)
+      '--state-input_boolean-on-color': red
+      '--state-input_boolean-off-color': black
+    hold_action:
+      action: none
+    tap_action:
+      action: none
+  - type: image
+    image: local/images/disc.gif
+    style:
+      top: 44.7%
+      left: 50%
+      width: 43%
+  - type: state-label
+    entity: sensor.home_total_consumption
+    style:
+      top: 29%
+      left: 50.5%
+      font-size: 50px
+  - type: state-label
+    entity: sensor.monthly_consumption
+    style:
+      top: 78.5%
+      left: 33%
+      font-size: 20px
+  - type: state-label
+    entity: sensor.dei_day_kwh_cost
+    style:
+      top: 57.4%
+      left: 35%
+      font-size: 20px
+      color: black
+  - type: state-label
+    entity: sensor.dei_night_kwh_cost
+    style:
+      top: 57.4%
+      left: 69%
+      font-size: 20px
+      color: black
+  - type: state-label
+    entity: sensor.dei_month_title
+    style:
+      top: 51%
+      left: 50%
+      font-size: 14px
+      color: black
+  - type: image
+    image: local/images/dei-logo.png
+    tap_action:
+      action: url
+      url_path: https://www.dei.gr/el/gia-to-spiti/revma/g1-g1n/
+    style:
+      top: 72%
+      left: 60%
+      width: 12%
+  - type: image
+    image: local/images/grafana-icon.png
+    tap_action:
+      action: navigate
+      navigation_path: /lovelace/grafana
+    style:
+      top: 72%
+      left: 75%
+      width: 12%
+image: local/images/power_meter.png
+card_mod:
+  style: |
+    ha-card {
+      --ha-card-background:  ;
+      --ha-card-box-shadow:  ;
+        }
+view_layout:
+  position: sidebar
