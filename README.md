@@ -1,4 +1,4 @@
-# energy_meter
+# Custom Energy Meter for Home Assistant Dashboard
 
 Custom Designed Home Assisstant Energy Meter.
 
